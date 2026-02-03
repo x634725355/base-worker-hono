@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "wrangler.json": "jsonc",
+        "editor.tabSize": "4",
+        "editor.insertSpaces": "true"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    // 启用保存时自动修复
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.oxlint": "explicit"
+    },
+    // "javascript.validate.enable": false,
+    // "typescript.validate.enable": false
+}
