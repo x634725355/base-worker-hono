@@ -11,6 +11,7 @@
         "source.fixAll": "explicit",
         "source.fixAll.oxlint": "explicit"
     },
-    // "javascript.validate.enable": false,
-    // "typescript.validate.enable": false
+    "[typescript]": {
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
 }
