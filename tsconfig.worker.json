@@ -1,14 +1,14 @@
 {
-	"extends": "./tsconfig.node.json",
-	"compilerOptions": {
-		"tsBuildInfoFile": "./node_modules/.tmp/tsconfig.worker.tsbuildinfo",
-		"types": [
-			"vite/client",
-			"./worker-configuration.d.ts",
-			"./src/worker/bindings.d.ts"
-		]
-	},
-	"include": [
-		"src/worker"
-	]
+    "extends": "./tsconfig.node.json",
+    "compilerOptions": {
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.worker.tsbuildinfo",
+        "types": [
+            "vite/client",
+            "./worker-configuration.d.ts",
+            "./src/worker/bindings.d.ts"
+        ],
+    },
+    "include": [
+        "src/worker"
+    ]
 }
